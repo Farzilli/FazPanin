@@ -214,6 +214,7 @@ nav #sidebar .side-icon:hover {
   background-color: #f78361;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
+  cursor: pointer;
 }
 #homesec #infopanel .info-item:hover {
   transition: 0.1s;

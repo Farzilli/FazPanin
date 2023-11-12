@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Faz Un Panin</title>
+        <link rel="stylesheet" href="./style/style.css" />
+        <link rel="shortcut icon" href="./icon.png" type="image/x-icon" />
+    </head>
+
+    <body>
+        <nav>
+            <div class="left-nav">
+                <h1 id="name">FAZ</h1>
+            </div>
+            <div class="right-nav">
+                <a href="index.html" class="nav-element">home</a>
+                <a href="menu.php" class="nav-element">menù</a>
+                <a href="prenota.html" class="nav-element">prenota</a>
+                <a href="chisiamo.php" class="nav-element">chi siamo</a>
+                <a href="dovesiamo.html" class="nav-element">dove siamo</a>
+
+                <input type="checkbox" name="sidebar-state" id="sidebar-state" />
+                <label for="sidebar-state" class="side-elem side-icon" style="background-image: url('./icon/menu.png')"></label>
+                <div id="sidebar" class="side-elem">
+                    <label for="sidebar-state" class="side-elem side-icon" style="background-image: url('./icon/reject.png')"></label>
+                    <hr />
+                    <a href="index.html" class="side-element">home</a>
+                    <a href="menu.php" class="side-element">menù</a>
+                    <a href="prenota.html" class="side-element">prenota</a>
+                    <a href="chisiamo.php" class="side-element">chi siamo</a>
+                    <a href="dovesiamo.html" class="side-element">dove siamo</a>
+                </div>
+            </div>
+        </nav>
+
+        <section id="topsec">
+            <h1 id="top-text">
+                Faz un panin? <br />
+                non solo! <br />
+                anche tigelle e stuzzichin
+                <p>( noi li facciamo bene )</p>
+            </h1>
+
+            <div id="topsecleft"></div>
+            <div id="topsecright"></div>
+        </section>
+
+        <section id="homesec">
+            <div id="localdescription">
+                <h1>
+                    Benvenuti da faz! <br />
+                    Nel nostro locale, vi immergerete in un'esperienza gastronomica unica, dedicata a panini, stuzzichini e tigelle fresche e saporite. <br />
+                    Con ingredienti di alta qualità e una vasta selezione, i nostri panini sono un viaggio di sapori, mentre gli stuzzichini delizieranno il vostro palato. <br />
+                    Le tigelle, preparate al momento, aggiungono un tocco tradizionale e irresistibile. <br />
+                    Un luogo accogliente dove la passione per il cibo di qualità incontra la soddisfazione dei vostri sensi.
+                </h1>
+            </div>
+
+            <div id="infopanel">
+                <div class="info-item" location="menu.php">
+                    <i id="icon" style="background-image: url('./icon/burger.png')"></i>
+                    <h2 id="text">menù</h2>
+                </div>
+
+                <div class="info-item" location="prenota.html">
+                    <i id="icon" style="background-image: url('./icon/calendar.png')"></i>
+                    <h2 id="text">prenota</h2>
+                </div>
+
+                <div class="info-item" location="chisiamo.php">
+                    <i id="icon" style="background-image: url('./icon/group.png')"></i>
+                    <h2 id="text">chi siamo</h2>
+                </div>
+
+                <div class="info-item" location="dovesiamo.html">
+                    <i id="icon" style="background-image: url('./icon/map.png')"></i>
+                    <h2 id="text">dove siamo</h2>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <h1>sito a cura di Francesco Arzilli 5G</h1>
+        </footer>
+    </body>
+
+    <script src="./script.js"></script>
+</html>

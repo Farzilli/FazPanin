@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap");
+
+$primary: #f78361;
+$secondary: #2a2d39;
+$dark_grey: #53576d;
+$white: #f0f0f0;
+
+$media-little: "only screen and (max-width : 550px)";
+$media-big: "only screen and (min-width : 550px)";
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    text-transform: capitalize;
+
+    &::-webkit-scrollbar {
+        width: 0;
+    }
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: "Nunito", sans-serif;
+    background-color: $secondary;
+}

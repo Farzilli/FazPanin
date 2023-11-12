@@ -1,0 +1,50 @@
+#prenota-main {
+    width: 100%;
+    height: 100vh;
+    margin-top: 110px;
+    margin-bottom: 10px;
+
+    form {
+        width: 90%;
+        max-width: 500px;
+        background-color: $dark_grey;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 150px auto;
+
+        h1 {
+            text-align: center;
+            color: $white;
+            border-bottom: 2px solid $white;
+            margin-bottom: 10px;
+        }
+
+        label {
+            width: 100%;
+            color: $white;
+        }
+
+        input,
+        select {
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            width: 100%;
+
+            &:focus {
+                transform: scale(1.02);
+            }
+        }
+
+        input[type="submit"] {
+            background-color: $primary;
+            color: $white;
+            font-size: 20px;
+            width: 250px;
+        }
+    }
+}
